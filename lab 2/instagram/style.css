@@ -1,31 +1,80 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 90%;
+    max-width:90%;
+    height: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fafafa;
-  margin: 0;
-  padding: 0;
+    background-color: #fafafa;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3rem;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
 }
 
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#wrapper > .container {
+    display: flex;
+    padding: 0 8rem;
 }
 
-.content_inner {
-  display: flex;
-  width: 100%;
-  max-width: 935px;
-  justify-content: space-between;
+.phone-app-demo {
+    height: 61.8rem;
+
 }
 
-.left_part {
-  flex: 1;
+.form-data {
+    width: 100%;
+    max-width: 35rem;
+    margin-top: 3rem;
+}
+
+.form-data form {
+    background-color: #fff;
+    border: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+
+.logo img {
+    width: 17.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.form-data form input {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.4rem;
+    background-color: #fff;
 }
