@@ -1,27 +1,32 @@
-# KaspiStore
+Lab 4
+Online store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+Show your understanding of Angular.
 
-## Development server
+Part 1
+Complete the project from the tutorial
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Part 2
+Create a new Angular project 
+Implement the component “Products”, which shows the list of products. Each product must have the following properties:
+image
+name
+description
+rating
+Each product should be linked to a real item from kaspi.kz
+Must be at least 10 products
+Buttons “Share” for each product, by clicking, the user should be redirected to Whatsapp or Telegram with the link to the product 
+Optional: Add product image gallery, minimum 3 images.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Useful links
+https://angular.dev/overview
+https://nodejs.org/en/
+https://www.npmjs.com/
+https://www.jetbrains.com/ru-ru/webstorm/
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+GOOD LUCK :)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
