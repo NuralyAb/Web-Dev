@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { TopComponent } from './top/top.component';
 import { ProductComponent } from './product/product.component';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ProductComponent } from './product/product.component';
   ],
   declarations: [
     AppComponent,
+    TopComponent,
     ProductComponent
   ],
   bootstrap: [
