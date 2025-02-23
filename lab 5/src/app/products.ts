@@ -13,287 +13,222 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'JSflor Kz 28451505 pink roses 15 pcs',
-    price: 14999,
-    description: 'type: bouquet\n' +
-      'flower type: rose\n' +
-      'number of flowers: 15\n' +
-      'packaging: kraft paper',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hc8/h3a/64325270175774.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/jsflor-kz-28451505-rozovye-rozy-15-sht-103484147/?c=750000000',
+    name: 'BMW A-bike 26.2 inch 2024 white',
+    price: 59241 ,
+    description: 'Saddle material leather  Package contents: wings, lock, lantern, bicycle bag, bottle Features of wings The color is whiteCountry of origin Germany',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/hf8/hb5/85749502443550.jpg?format=preview-large',
+    url: 'https://kaspi.kz/shop/p/a-bike-bmw-26-2-djuim-2024-belyi-118424682/?c=750000000',
     rating: 5,
-    category: 'Flowers',
-    likes: 13
+    category: 'Bicycles',
+    likes: 10
   },
   {
     id: 2,
-    name: 'Romeo Astana 12343008 rose 7 pcs 50 cm',
-    price: 7500,
-    description: 'type: bouquet\n' +
-      'flower type: rose\n' +
-      'number of flowers: 7\n' +
-      'packaging: foamiran',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h8f/h87/65132314066974.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/romeo-astana-12343008-roza-7-sht-50-sm-104725600/?c=750000000',
+    name: 'Bike Stels STELS 28 inch 2022 21 inch green',
+    price: 51838,
+    description: 'Complete set of pump, basket, footrest, trunk, fenders Features fenders, front fender, footrest The color is green Country of origin Russia The assembly is delivered disassembled.',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h67/h1e/85994169892894.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/stels-stels-28-djuim-2022-21-djuim-zelenyi-109799892/?c=750000000',
     rating: 4,
-    category: 'Flowers',
-    likes: 82
+    category: 'Bicycles',
+    likes: 120
   },
   {
     id: 3,
-    name: 'Romeo Astana 12343035 gypsophila 9 pcs 50 cm',
-    price: 17990,
-    description: 'type: arrangement\n' +
-      'flower type: gypsophila\n' +
-      'number of flowers: 9\n' +
-      'packaging: hat box',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h41/h6c/64907561893918.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/romeo-astana-12343035-gipsofila-9-sht-50-sm-104761625/?c=750000000',
+    name: 'VETRO Bike ALL BLACK/BLUE 29 inch 2024 black-blue',
+    price: 115000,
+    description: 'Saddle material artificial leather Package contents: pump, wings, lock, bell, bicycle bag, light reflector, bottle Features holder for containers, bicycle pockets Color black-blue Manufacturer Country China Manufacturer VETRO',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/hf1/he3/87133814259742.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/vetro-a3l-black-blue-29-djuim-2024-chernyi-sinii-123617371/?c=750000000',
     rating: 5,
-    category: 'Flowers',
-    likes: 510
+    category: 'Bicycles',
+    likes: 30
   },
   {
     id: 4,
-    name: 'Rilak 330852 rose 15 pcs 50 cm\n',
-    price: 12399,
-    description: 'type: bouquet\n' +
-      'flower type: rose\n' +
-      'number of flowers: 15\n' +
-      'packaging: aqua paper',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hc3/hab/83673293455390.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/rilak-330852-roza-15-sht-50-sm-113240118/?c=750000000',
+    name: 'Bike Land Rover 2023 26 inches 2023 18 inches Black',
+    price: 57943,
+    description: 'Saddle material artificial leather There is a steering wheel position setting Package contents: pump, footrest, fenders, lock, lantern, bicycle bag, bottle Features fenders, chain guard, front fender, container holder, rear fender, footrest, bicycle lock',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h0c/h11/81283438968862.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/land-rover-2023-26-djuim-2023-18-djuimov-chernyi-110868755/?c=750000000',
     rating: 3,
-    category: 'Flowers',
-    likes: 175
+    category: 'Bicycles',
+    likes: 28
   },
   {
     id: 5,
-    name: 'Vverx Flowers Geraldin rose 13 pcs 60 cm',
-    price: 15988,
-    description: 'type: bouquet\n' +
-      'flower type: rose\n' +
-      'number of flowers: 15\n' +
-      'packaging: aqua paper',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h0d/h6c/80699261714462.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/vverx-flowers-geraldin-roza-13-sht-60-sm-110290599/?c=750000000',
+    name: 'Bicycle Princess Childrens Bicycle Princess-20 20 inch 2020 M Pink',
+    price: 27989,
+    description: 'Complete set basket, footrest, trunk, bell Features missing The color is pink Manufacturer Country China The assembly is delivered assembled',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h56/hf5/86137541132318.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/printsessa-detskii-velosiped-printsessa-20-20-djuim-2020-m-rozovyi-109237652/?c=750000000',
     rating: 4,
-    category: 'Flowers',
-    likes: 26
+    category: 'Bicycles',
+    likes: 64
   },
   {
     id: 6,
-    name: 'Детское пюре ФрутоНяня Яблоко-Банан-Клубника 90 г',
-    price: 285,
-    description: 'тип: многокомпонентное\n' +
-      'добавки: йогурт\n' +
-      'компоненты: фрукты\n' +
-      'минимальный возраст: 7 месяцев',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h36/hf0/64024145166366.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/frutonjanja-jabloko-banan-klubnika-90-g-101048221/?c=750000000',
+    name: 'Laptop ThundeRobot 911 X Wild Hunter G2 Pro 15.6" / 16 GB / SSD 512 GB / Win 11 Pro /',
+    price: 529735,
+    description: 'The maximum processor frequency is 4400.0 MHz Intel Core i5-12450H processor The base frequency of the processor is 2000.0 MHz Number of processor cores 8 cores L312 MB Cache Size',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h58/h61/86274830073886.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/thunderobot-911-x-wild-hunter-g2-pro-15-6-16-gb-ssd-512-gb-win-11-pro--120386920/?c=750000000',
     rating: 5,
-    category: 'Children',
-    likes: 11
+    category: 'Laptops',
+    likes: 63
   },
   {
     id: 7,
-    name: 'Детское пюре Агуша Яблоко-клубника-малина 90 г',
-    price: 299,
-    description: 'тип: многокомпонентное\n' +
-      'добавки: без добавки\n' +
-      'компоненты: фрукты\n' +
-      'минимальный возраст: 6 месяцев',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h53/hc1/63957671575582.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/agusha-jabloko-klubnika-malina-90-g-100623509/?c=750000000',
+    name: 'Apple MacBook Air 13 2022 13.6" Laptop / 8GB / 256GB SSD / macOS / MLXW3',
+    price: 495798,
+    description: 'The maximum processor frequency is 3400.0 MHz Apple M2 Processor The base frequency of the processor is 2000.0 MHz Number of processor cores 8 cores',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/hf4/h52/64509322919966.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/apple-macbook-air-13-2022-13-6-8-gb-ssd-256-gb-macos-mlxw3-105933794/?c=750000000',
     rating: 4,
-    category: 'Children',
-    likes: 450
+    category: 'Laptops',
+    likes: 50
   },
   {
     id: 8,
-    name: 'Детское пюре ФрутоНяня Яблоко-банан-творог 6 мес+ 90 г',
-    price: 285,
-    description: 'тип: многокомпонентное\n' +
-      'добавки: творог\n' +
-      'компоненты: фрукты\n' +
-      'минимальный возраст: 6 месяцев',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hac/h4f/84933630459934.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/frutonjanja-jabloko-banan-tvorog-6-mes-90-g-100975502/?c=750000000',
+    name: 'Lenovo IdeaPad 3 15.6" Laptop / 4GB / 256GB SSD / Without OS / 15IGL05 / 81WQ00EMRK',
+    price: 172600 ,
+    description: 'The maximum processor frequency is 2800.0 MHz Process technology 14.0 nm Intel Celeron N4020 processor The base frequency of the processor is 1100.0 MHz Number of processor cores 2 cores',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h89/haa/64373052571678.jpg?format=gallery-medium',
+    url: 'http://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/?c=750000000',
     rating: 3,
-    category: 'Children',
-    likes: 65
+    category: 'Laptops',
+    likes: 35
   },
   {
     id: 9,
-    name: 'Детское пюре Агуша Яблоко 90 г',
-    price: 299,
-    description: 'тип: однокомпонентное\n' +
-      'добавки: без добавки\n' +
-      'компоненты: фрукты\n' +
-      'минимальный возраст: 4 месяца',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h35/h62/63957235138590.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/agusha-jabloko-90-g-100621391/?c=750000000',
+    name: 'Laptop Thunderbolt 911 SCoreD 15.6" / 16 GB / SSD 512 GB / Without OS / JT009K00F',
+    price: 388678 ,
+    description: 'The maximum processor frequency is 4400.0 MHz Intel Core i5-12450H processor The base frequency of the processor is 2000.0 MHz Number of processor cores 8 cores L312 MB Cache Size',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h76/h6c/85301691547678.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/thunderobot-911s-core-d-15-6-16-gb-ssd-512-gb-bez-os-jt009k00f-117046774/?c=750000000',
     rating: 5,
-    category: 'Children',
-    likes: 9146
+    category: 'Laptops',
+    likes: 69
   },
   {
     id: 10,
-    name: 'Детское пюре Агуша Яблоко-банан печенье 90 г',
-    price: 749890,
-    description: 'тип: многокомпонентное\n' +
-      'добавки: печенье\n' +
-      'компоненты: фрукты\n' +
-      'минимальный возраст: 6 месяцев',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h2d/hd9/85120444760094.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/agusha-jabloko-banan-pechen-e-90-g-100623747/?c=750000000',
+    name: 'Lenovo LOQ 15.6" Laptop / 16 GB / 512GB SSD / Without OS / 15IAX9 / 83GS005NRK',
+    price: 393206,
+    description: 'The maximum processor frequency is 4400.0 MHz Intel Core i5-12450HX processor The base frequency of the processor is 3100.0 MHz Number of processor cores 8 cores L312 MB Cache Size',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/p59/p53/15221547.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/lenovo-loq-15-6-16-gb-ssd-512-gb-bez-os-15iax9-83gs005nrk-120581412/?c=750000000',
     rating: 5,
-    category: 'Children',
-    likes: 188
+    category: 'Laptops',
+    likes: 18
   },
   {
     id: 11,
-    name: 'Гитара Stagg Homage LF-4100-N Pack 2',
-    price: 59200,
-    description: 'мензура: 25.6 дюйм.\n' +
-      'тип: акустическая\n' +
-      'количество струн: 6\n' +
-      'для левши: Нет\n' +
-      'с подключением: Нет',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hc7/h2a/80633959251998.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/stagg-homage-lf-4100-n-pack-2-110212097/?c=750000000',
+    name: 'Ball Tennis ball GF00214 3 pcs',
+    price: 699 ,
+    description: 'Type for the hall, for the street Appointment for lawn tennis Material rubber Size one size One size diameter The shape is round',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/hab/h4c/85988553490462.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/tenisnyi-mjach-gf00214-3-sht-106320557/?c=750000000',
     rating: 5,
-    category: 'Guitar',
-    likes: 416
+    category: 'Sports balls',
+    likes: 325
   },
   {
     id: 12,
-    name: 'Гитара Ronnie Wood AG 38-RDS CMP Red',
-    price: 24997,
-    description: 'мензура: 24.5 дюйм.\n' +
-      'тип: акустическая\n' +
-      'количество струн: 6\n' +
-      'для левши: Нет\n' +
-      'с подключением: Нет',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h84/h7f/64436741242910.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/ronnie-wood-ag-38-rds-cmp-red-104616734/?c=750000000',
+    name: 'Mikasa V200W Volleyball Ball 5 D67',
+    price: 45000,
+    description: 'Original!!! APPROVED BY FIVB The weight and diameter of the ball meet the requirements of the International Volleyball Federation FIVB. BALL CONTROL The soft non-slip coating material ensures clear contact with the ball when receiving and serving. ESPECIALLY FOR THE GYM',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h86/hef/63852919095326.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/mikasa-v200w-dlja-voleibola-5-d67-100134795/?c=750000000',
     rating: 5,
-    category: 'Guitar',
-    likes: 278
+    category: 'Sports balls',
+    likes: 726
   },
   {
     id: 13,
-    name: 'Гитара Ronnie Wood AG 38-BK CMP AMRWPCM0001 Black',
-    price: 25892,
-    description: 'мензура: 24.5 дюйм.\n' +
-      'тип: акустическая\n' +
-      'количество струн: 6\n' +
-      'для левши: Нет\n' +
-      'с подключением: Нет',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hbd/h5d/64368290070558.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/ronnie-wood-ag-38-bk-cmp-amrwpcm0001-black-104499839/?c=750000000',
+    name: 'Lawn Tennis Ball',
+    price: 499,
+    description: 'Type for the hall, for the street Appointment for lawn tennis Material Polyester Diameter 10=10 The shape is round Additional information 2 balls manufactured in Russia. Polyester, Nylon',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/ha0/hc7/82788534288414.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/dlja-bol-shogo-tennisa--112510658/?c=750000000',
     rating: 4,
-    category: 'Guitar',
-    likes: 172
+    category: 'Sports balls',
+    likes: 692
   },
   {
     id: 14,
-    name: 'Гитара Gmusic 888665456 бежевый',
-    price: 85000,
-    description: 'мензура: 25.6 дюйм.\n' +
-      'тип: акустическая\n' +
-      'количество струн: 6\n' +
-      'для левши: Нет\n' +
-      'с подключением: Да',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hd9/h78/70058451501086.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/gmusic-888665456-bezhevyi-109347289/?c=750000000',
+    name: 'Lawn tennis ball 18544099_133218',
+    price: 340,
+    description: 'Type for the hall, for the street Appointment for lawn tennis Material synthetic Size one size Diameter 20 The shape is round',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/had/hef/82768190996510.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/dlja-bol-shogo-tennisa-18544099-133218-112486658/?c=750000000',
     rating: 5,
-    category: 'Guitar',
-    likes: 96
+    category: 'Sports balls',
+    likes: 79
   },
   {
     id: 15,
-    name: 'Гитара Ronnie Wood AG 38 N AMREPCM0005 Natural',
-    price: 24959,
-    description: 'мензура: 24.5 дюйм.\n' +
-      'тип: классическая\n' +
-      'количество струн: 6\n' +
-      'для левши: Нет\n' +
-      'с подключением: Нет',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/ha1/h5d/65120313638942.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/ronnie-wood-ag-38-n-amrepcm0005-natural-104868212/?c=750000000',
+    name: 'AAT Teamgeist Soccer Ball 5 D68 +Pump',
+    price: 4461 ,
+    description: 'Type for the street Destination for football Material artificial leather, rubber Size 5 Diameter 68 The shape is round',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h6e/hf4/85364071628830.png?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/aat-temgeist-dlja-futbola-5-d68-nasos-117221927/?c=750000000',
     rating: 5,
-    category: 'Guitar',
-    likes: 58
+    category: 'Sports balls',
+    likes: 8
   },
   {
     id: 16,
-    name: 'Часы Кварцевые CASIO MTP-1374D-1AVDF сталь',
-    price: 30590,
-    description: 'Японский гигант Casio – один из лидеров мирового рынка бытовой электроники. Все часы имеют придирчивый контроль качества и обеспечены фирменной гарантией. Сегодня наручные часы CASIO представлены в широком ассортименте с четко обозначенными модельными рядами, что облегчает покупателю выбор подходящих часов.',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h76/h49/63778732965918.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/kvartsevye-casio-mtp-1374d-1avdf-stal--21401209/?c=750000000',
+    name: 'Set Errea 2244 blue 48',
+    price: 7390,
+    description: 'and the p set Features breathability, wicks away moisture For whom for men Size 48 Composition polyester',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h66/hb7/86332778905630.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/komplekt-errea-2244-sinii-48-120625110/?c=750000000',
     rating: 4,
-    category: 'Wristwatch',
-    likes: 128
+    category: 'Football uniform',
+    likes: 465
   },
   {
     id: 17,
-    name: 'Часы Кварцевые SKMEI 09927 сталь',
-    price: 4500,
-    description: 'способ отображения времени: цифровой (электронный)\n' +
-      'тип: кварцевые\n' +
-      'материал корпуса: сталь\n' +
-      'противоударные: Нет\n' +
-      'для кого: для мужчин\n' +
-      'цвет: черный, ,серебристый',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hcc/h0c/64922253656094.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/kvartsevye-skmei-09927-stal--104692147/?c=750000000',
+    name: 'JOMA FC Kairat T-shirt 103081.901 Yellow 48',
+    price: 8500 ,
+    description: 'Type of T-shirt There are no special features For whom for men Size 48 Size to Manufacturers Type of fastener without fastener',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h3d/h85/85093812371486.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/futbolka-joma-fk-kairat-103081-901-zheltyi-48-116433957/?c=750000000',
     rating: 4,
-    category: 'Wristwatch',
-    likes: 51
+    category: 'Football uniform',
+    likes: 96
   },
   {
     id: 18,
-    name: 'Часы Кварцевые BENYAR BY5140 нержавеющая сталь',
-    price: 11494,
-    description: 'способ отображения времени: аналоговый (стрелки)\n' +
-      'тип: кварцевые\n' +
-      'материал корпуса: нержавеющая сталь\n' +
-      'противоударные: Да\n' +
-      'для кого: для мужчин\n' +
-      'цвет: серебристый',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hef/hb3/65074563088414.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/kvartsevye-benyar-by5140-nerzhavejuschaja-stal--107343037/?c=750000000',
+    name: 'ALPIKA forma011 kit blue 50',
+    price: 5322,
+    description: 'Type of kit There are no special features For whom for men Size 50 Type of fastener without fastener',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h5f/h04/84536336318494.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/komplekt-alpika-forma011-goluboi-50-110858809/?c=750000000',
     rating: 5,
-    category: 'Wristwatch',
-    likes: 984
+    category: 'Football uniform',
+    likes:294
   },
   {
     id: 19,
-    name: 'Часы Механические T-WINNER TWWRG8236M4S1 нержавеющая сталь',
-    price: 8989,
-    description: 'способ отображения времени: аналоговый (стрелки)\n' +
-      'тип: механические\n' +
-      'материал корпуса: нержавеющая сталь\n' +
-      'противоударные: Нет\n' +
-      'для кого: для мужчин\n' +
-      'цвет: серебристый',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hcf/h2f/80420526915614.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/mehanicheskie-t-winner-twwrg8236m4s1-nerzhavejuschaja-stal--109553960/?c=750000000',
+    name: 'Barcelona 24-25 Soccer Uniform Set red, blue 46',
+    price: 6500,
+    description: 'Type of kit There are no special features For whom for men Size 46 Size to Manufacturers Composition polyester',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/p47/pdf/20137665.PNG?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/komplekt-futbol-naja-forma-barcelona-24-25-krasnyi-sinii-46-133440077/?c=750000000',
     rating: 3,
-    category: 'Wristwatch',
-    likes: 85
+    category: 'Football uniform',
+    likes: 63
   },
   {
     id: 20,
-    name: 'Часы Кварцевые Tomi B нержавеющая сталь',
-    price: 4489,
-    description: 'Часы для Мужчин и Женщин (унисекс) наручные кварцевые - современный незаменимый аксессуар. Часы на руку выполненные в черном цвете с уникальным дизайном. Полупрозрачный необычный циферблат.',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hf2/hd1/66935996743710.jpg?format=gallery-medium',
-    url: 'https://kaspi.kz/shop/p/kvartsevye-tomi-b-nerzhavejuschaja-stal--108063545/?c=750000000',
+    name: 'ALPIKA Arsenal FormaV010-2XL red 50',
+    price: 5499,
+    description: 'Type of kit There are no special features For whom for men Size 50 Manufacturers size is 2XL Type of fastener without fastener',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h08/hfa/84538593411102.jpg?format=gallery-medium',
+    url: 'https://kaspi.kz/shop/p/alpika-arsenal-formav010-2xl-krasnyi-50-110856875/?c=750000000',
     rating: 5,
-    category: 'Wristwatch',
-    likes: 36
+    category: 'Football uniform',
+    likes: 63
   }
 ];

@@ -6,18 +6,18 @@ export interface Category {
 export const categories = [
   {
     id: 1,
-    categories: "Flowers"
+    categories: "Bicycles"
   },
   {
     id:2,
-    categories: "Children"
+    categories: "Laptops"
   },
   {
     id:3,
-    categories: "Guitar"
+    categories: "Sports balls"
   },
   {
     id:4,
-    categories: "Wristwatch"
+    categories: "Football uniform"
   }
 ];
